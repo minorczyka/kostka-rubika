@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kostka Rubika</string>
+    <string name="calibration">Kalibracja</string>
+    <string name="detector_dialog_error">Nieprawidłowa kostka!</string>
+    <string name="cancel">Anuluj</string>
+    <string name="detector_dialog_processing">Przetwarzanie…</string>
+    <string name="detector_dialog_title">Wykrywanie kostki</string>
+    <string name="detector_found_more">Znaleziono wiele prawidłowych kombinacji</string>
+    <string name="kociemba_algorithm">Algorytm Kociemby</string>
+    <string name="layer_by_layer">Layer by layer</string>
+    <string name="ok">OK</string>
+    <string name="random_cube">Losowa kostka</string>
+    <string name="reset_detection">Reset wykrywania</string>
+    <string name="solving">Przygotowywanie rozwiązania…</string>
+</resources>

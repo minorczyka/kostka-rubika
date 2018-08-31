@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rubik\'s cube</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="calibration">Calibration</string>
+    <string name="reset_detection">Reset detection</string>
+    <string name="random_cube">Random cube</string>
+
+    <string name="detector_dialog_title">Cube detection</string>
+    <string name="detector_dialog_processing">Processing cube…</string>
+    <string name="detector_dialog_error">Invalid cube!</string>
+    <string name="detector_found_more">Found many valid cubes</string>
+
+    <string name="layer_by_layer">Layer by layer</string>
+    <string name="kociemba_algorithm">Kociemba\'s algorithm</string>
+    <string name="solving">Preparing solution…</string>
+</resources>

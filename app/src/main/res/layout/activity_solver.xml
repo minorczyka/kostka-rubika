@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <pl.polsl.kostkarubika.views.solver.CubeSurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/stepDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/skipToBeginning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_skip_previous_white"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        <ImageButton
+            android:id="@+id/prevPhase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fast_rewind_white"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        <ImageButton
+            android:id="@+id/prevMove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_navigate_before_white"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        <ImageButton
+            android:id="@+id/playPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_arrow_white"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        <ImageButton
+            android:id="@+id/nextMove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_navigate_next_white"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        <ImageButton
+            android:id="@+id/nextPhase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fast_forward_white"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        <ImageButton
+            android:id="@+id/skipToEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_skip_next_white"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+    </LinearLayout>
+</RelativeLayout>
